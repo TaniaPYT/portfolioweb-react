@@ -45,13 +45,13 @@
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width: 40%;
+    width: 45%;
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
 
     h1{
-      font-size: 50px;
+      font-size: 65px;
       font-family: 'Coolvetica';
       color: bisque;
       font-weight: 300;
@@ -85,9 +85,9 @@
     }
 
     p{
-      font-size: 13px;
+      font-size: 20px;
       color:#e9aaaa;
-      font-family: Georgia;
+      font-family:monospace;
       font-weight: 200;
       min-width: fit-content;
       animation: pulse 1s;
