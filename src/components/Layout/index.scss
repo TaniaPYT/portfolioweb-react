@@ -42,7 +42,7 @@
 .contact-page {
   .text-zone {
     position: absolute;
-    left: 10%;
+    left: 8%;
     top: 50%;
     transform: translateY(-50%);
     width: 45%;
@@ -52,8 +52,8 @@
 
     h1{
       font-size: 65px;
-      font-family: 'Coolvetica';
-      color: bisque;
+      font-family:'Coolvetica';
+      color: rgb(255, 255, 255);
       font-weight: 300;
       margin-top: 0;
       position: relative;
@@ -86,8 +86,8 @@
 
     p{
       font-size: 20px;
-      color:#e9aaaa;
-      font-family:monospace;
+      color:#fafafa;
+      font-family: 'Comic Sans MS';
       font-weight: 200;
       min-width: fit-content;
       animation: pulse 1s;
@@ -106,7 +106,7 @@
 
   .text-animate-hover {
     &:hover {
-      color: #e9aaaa;
+      color: #ad4141;
     }
   }
 }

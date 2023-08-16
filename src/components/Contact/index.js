@@ -43,13 +43,13 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C','o','t','a','c','t','','m','e']}
+              strArray={['C','o','n', 't','a','c','t','','M','e']}
               idx={15}
             />
           </h1>
           <p>
-            I am interested in internship / freelance opportunities. <br />
-            However, don't hesitate to contact me using form below, if you have any other request / quesion or just want a chat.
+            I am interested in internship / freelance / fulltime work opportunities. <br />
+            However, if you have any other request / quesion or just want a chat,  don't hesitate to contact me using form below.
           </p>
           <div className='contact-form'>
             <form ref={refForm} onSubmit={sendEmail}>
@@ -58,7 +58,7 @@ const Contact = () => {
                   <input
                   type='text'
                   name='name'
-                  placeholder='Name'
+                  placeholder='Enter your name'
                   required
                   />
                 </li>
@@ -66,7 +66,7 @@ const Contact = () => {
                   <input
                   type='email'
                   name='email'
-                  placeholder='Email'
+                  placeholder='Enter your email'
                   required
                   />
                 </li>
@@ -74,14 +74,14 @@ const Contact = () => {
                   <input
                   type='text'
                   name='subject'
-                  placeholder='Subject'
+                  placeholder='Enter the subject'
                   required
                   />
                 </li>
                 <li>
                   <textarea
                   placeholder='Message'
-                  name='message'
+                  name='Enter your message'
                   required
                 ></textarea>
                 </li>
